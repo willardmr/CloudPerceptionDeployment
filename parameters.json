@@ -1,0 +1,20 @@
+[
+  {
+    "ParameterKey": "ApplicationName",
+    "UsePreviousValue": true
+  },
+
+  {
+    "ParameterKey": "GitHubUser",
+    "UsePreviousValue": true
+  },
+  {
+    "ParameterKey": "GitHubOAuthToken",
+    "UsePreviousValue": true
+  },
+  {
+    "ParameterKey": "GitHubRepository",
+    "UsePreviousValue": true
+  }
+
+]
