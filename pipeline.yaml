@@ -189,7 +189,8 @@ Resources:
                                 RoleArn: !Sub ${CodePipelineCloudFormationRole.Arn}
                                 Capabilities: CAPABILITY_NAMED_IAM
                                 StackName: !Sub ${ApplicationName}-production
-                                TemplatePath: Built::cloudformation/infrastructure.yml
+                                ChangeSetName: "TEST"
+                                TemplatePath: Built::outputSamTemplate.yaml
                                 #TemplateConfiguration: Built::config/production.conf
                                 #ParameterOverrides: !Sub |
                                 #    {
